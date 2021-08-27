@@ -138,7 +138,7 @@ output application/json
         </ee:transform>
     </flow>
     <flow name="delete:\productitem:application\json:first-raml-config">
-        <logger level="INFO" message="delete:\productitem:application\json:first-raml-config" />
+        <logger level="INFO" message="delete:\productitem:application\json:first-raml-config:::;;" />
     </flow>
     <flow name="get:\customeritem:first-raml-config">
         <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
